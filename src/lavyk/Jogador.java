@@ -3,21 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lavyk;
+package lab5;
 
 /**
  *
- * @author usuario
+ * @author Lavyk
  */
 public class Jogador{
     private String nome;
     private int numero;
     private boolean capitao;
+    private int zeroOuUm;
     
     Jogador(String nome, int numero, boolean capitao){
         this.nome = nome;
         this.numero = numero;
         this.capitao = capitao;
+    }
+    
+    public int getZeroOuUm() {
+        return zeroOuUm;
+    }
+
+    public void setZeroOuUm(int zeroOuUm) {
+        this.zeroOuUm = zeroOuUm;
     }
     
     public boolean isCapitao() {

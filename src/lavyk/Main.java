@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lavyk;
+package lab5;
 
 /**
  *
- * @author usuario
+ * @author Lavyk
  */
 public class Main extends Racha{
     public void mostra(){
@@ -17,12 +17,13 @@ public class Main extends Racha{
 
         Racha racha = new Racha();
         
-        racha.addJogador("Jo√£o", 15);
+        racha.addJogador("Jo„o", 15);
         racha.addJogador("Pedro", 17);
         racha.addJogador("Ronaldo", 20);
         racha.addJogador("Fabiano", 20);
         racha.addJogador("Lamark", 20);
         racha.addJogador("Lavyk", 20);
+        
         System.out.println(racha.getJogadores());
         racha.zeroOuUm();
     }
