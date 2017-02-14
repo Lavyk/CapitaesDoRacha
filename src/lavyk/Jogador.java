@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab5;
+package lavyk;
 
 /**
  *
@@ -14,12 +14,23 @@ public class Jogador{
     private int numero;
     private boolean capitao;
     private int zeroOuUm;
+    private String imparOuPar = null;
     
     Jogador(String nome, int numero, boolean capitao){
         this.nome = nome;
         this.numero = numero;
         this.capitao = capitao;
     }
+    
+    public String getImparOuPar() {
+        return imparOuPar;
+    }
+
+    public void setImparOuPar(String imparOuPar) {
+        this.imparOuPar = imparOuPar;
+    }
+    
+
     
     public int getZeroOuUm() {
         return zeroOuUm;
