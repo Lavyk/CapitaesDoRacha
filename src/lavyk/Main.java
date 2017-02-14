@@ -22,14 +22,9 @@ public class Main {
         racha.addJogador("Fabiano", 20);
         racha.addJogador("Lamark", 20);
         racha.addJogador("Lavyk", 20);
-        
-        //System.out.println(racha.getJogadores());
-
                 
         String ganhadorZU = racha.zeroOuUm();
-        System.out.println(ganhadorZU + " ganhou o Zero ou Um!");
+        System.out.println(ganhadorZU + " ganhou o Zero ou Um!\n");
         racha.imparOuPar();
-        //System.out.println(racha.getJogadores().get(ganhadorZU));
-        //racha.imparOuPar(ganhadorZU);
     }
 }
