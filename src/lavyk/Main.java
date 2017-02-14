@@ -5,6 +5,8 @@
  */
 package lavyk;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Lavyk
@@ -22,8 +24,12 @@ public class Main {
         racha.addJogador("Lavyk", 20);
         
         //System.out.println(racha.getJogadores());
-        int ganhadorZU = racha.zeroOuUm();
-        System.out.println(racha.getJogadores().get(ganhadorZU));
-        racha.imparOuPar(ganhadorZU);
+
+                
+        String ganhadorZU = racha.zeroOuUm();
+        System.out.println(ganhadorZU + " ganhou o Zero ou Um!");
+        racha.imparOuPar();
+        //System.out.println(racha.getJogadores().get(ganhadorZU));
+        //racha.imparOuPar(ganhadorZU);
     }
 }
